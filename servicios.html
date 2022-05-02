@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeamLeaKesler</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="container-fluid">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+     crossorigin="anonymous"></script>
+    <header class="header">
+        <div class="row">
+        <div class="col-md-12">
+        <img src="logo.PNG" alt="" class="logo">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sobremi.html">Sobre mi</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="clientes.html">Clientes</a>
+                  </li>
+                </ul>
+              </div>
+          </nav>
+        </div>
+        </div>
+    </header>
+
+    <main class="servicios">
+        <div class="row">
+     <div class="col-md-4">
+       <h2 class="text-center">RUTINA</h2>
+     <img src="img.html/strong-man-training-in-gym-1024x683.jpg" alt="imagen rutina">
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit iure perspiciatis, 
+         reiciendis sapiente voluptates porro non ducimus in atque unde officiis vero 
+         laborum quod ipsam, excepturi quaerat quis, fugiat nisi.</p>
+        </div>
+        <div class="col-md-4">
+            <h2 class="text-center">DIETA</h2>
+            <img src="img.html/download (3) (1).jpg" alt="imagen dieta">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Quidem, sapiente. Optio quod voluptate id! Vel enim possimus, u
+                llam, adipisci impedit temporibus amet debitis doloribus, 
+                eligendi nihil perferendis totam cupiditate blanditiis.</p>
+        </div>
+        <div class="col-md-4">
+            <h2 class="text-center">
+                SEGUIMIENTO
+            </h2>
+            <img src="img.html/WhatsApp Image 2022-04-05 at 12.10.24.jpeg" alt="imagen seguimiento">
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                 Consectetur enim magnam aliquid ut, voluptas corrupti et nihil n
+                 eque quasi quia officiis velit animi sed! Amet minus atque impedit quas aut!</p>       
+        </div>
+    </div>
+    </main>
+    
+    <section class="extras">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">EXTRAS</h2>
+            </div>
+            <div class="col-md-6">
+                <p class="text-center">contacto conmigo las 24 horas del dia, <br>
+                los 7 dias de la semana, sere tu companero <br>
+                en todo momento. Resuelve todas tus dudas</p>
+            </div>
+            <div class="col-md-6">
+              <p class="text-center">acceso a comunidad de telegram, comparte <br>
+            tu progreso con todos, realiza preguntas y ayuda <br>
+           a los demas</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contacto">
+        <div class="row">
+            <div class="col-md-6">
+               <img class="imgContacto" src="img.html/WhatsApp Image 2022-04-29 at 10.05.57 PM.jpeg" alt="">
+            </div>
+            <div class="col-md-6">
+                <h2>CONTACTAME</h2>
+                <p>soy el primero que quiere que entres decidido/a al SEGUIMIENTO <br>
+                   para cualquier duda que tengas completa con tus datos y luego <br>
+                   dejala en la caja, me estare comunicando contigo a la brevedad
+                </p>
+              <form action="enviar.php" method="post">
+       
+                  <input type="text" placeholder="nombre completo"> <br>
+                  <input type="number" placeholder="edad"> <br>
+                  <p>GENERO</p>
+                  <input name="sexo" type="radio">
+                  <label for="">hombre</label><br>
+                  <input name="sexo" type="radio">
+                  <label for="">mujer</label><br>
+                  <input name="sexo" type="radio">
+                  <label for="">indefinido</label><br>
+                  <br>
+                  <input type="mail" name="correo" placeholder="email"> <br>
+                  <input type="number" placeholder="escribe tu telefono"> <br>
+     
+        <textarea name="mensaje" id="porque quieres entrenar conmigo" cols="30" rows="10"></textarea> <br>
+        <br>
+        <input type="checkbox">
+        <label for="">acepta los terminos y condiciones</label> <br>
+        <input type="submit">
+        <input type="reset">
+          </form> 
+            </div>
+            
+       </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col-md-6">
+                <p>&copy;leakesler 2022</p>
+            </div>
+            <div class="col-md-6">
+               <p>follow us/ instagram: @leakesler  youtube: leakesler  tiktok: lea.kesler</p>
+            </div>
+
+        </div>
+    </footer>   
+
+</body>
+</html>
