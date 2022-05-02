@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+header{
+    background-color: black;
+}
+
+footer{
+    background-color: black;
+    height: 80px;
+    }
+footer p{
+    color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}    
+
+
+.nav-link{
+    color: orange;
+    margin
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    transition: 0.7s;
+}
+.nav-link:hover{
+   color: red;
+   font-size: 27px;
+}
+
+.imgContacto{
+    height: 900px;
+    width: 100%;
+}
+.contacto{
+    background-color:rgb(24, 22, 22) ;
+    color: white;
+   }
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+}
+
+video{
+    height: 500px;
+    width: 500px;
+}
+
+.banner{
+    background-image: url(img.html/Aaaaaassssssaaaa.JPEG);
+    height: 385px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: orangered;
+    font-size: 90px;
+    position: relative;
+    top: 250px;
+    text-shadow: 3px 4px 5px black;
+}
+
+ul{
+    color: white;
+}
+h3{
+    color: white;
+}
+
+.videoInformativo{
+    background-color: rgb(24, 22, 22);
+}
+
+aside h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+aside p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+    
+
+.videoYT{
+    background-color: rgb(66, 65, 65);
+}
+
+
+.videoYT h2{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 110px;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+
+.videoYT p{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 110px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.sobremi{
+    background-color:rgb(24, 22, 22) ;
+    color: orangered;
+    
+
+}
+.sobremi img{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.mimision{
+    background-color:rgb(66, 65, 65) ;
+    color: orangered;
+}
+.imgtrabajo{
+    height: 550px;
+    width: 100%;
+}
+
+.servicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgb(24, 22, 22) ;
+    color: orangered;
+    height: 600px;
+}
+
+.servicios img{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 55px;
+    border: 4px solid black;
+}
+
+ .extras{
+     height: 300px;
+     background-color: black;
+     color: white;
+     background-image: linear-gradient(
+         to bottom, black, rgb(24, 22, 22)
+     )
+ }
+
+
+ 
+.clientes{
+    height: 1000px;
+    width: 100%;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-image: linear-gradient(to bottom,  black, rgb(24, 22, 22) );
+}
+
+.img{
+    margin: 10px;
+}
+
+.img1{
+        grid-column: 1/2;
+        grid-row: 1/2,5;
+        background-image: url(img.html/WhatsApp\ Image\ 2022-04-05\ at\ 11.50.49.jpeg);
+        background-position: center;
+        background-size: cover;
+       
+    }
+    .img2{
+        grid-column: 2/3;
+        grid-row: 1/2,5;
+        background-image: url(img.html/WhatsApp\ Image\ 2022-04-05\ at\ 11.50.48.jpeg)
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .img3{
+        grid-column: 4/5;
+        grid-row: 1/2,5;
+        background-image: url(img.html/WhatsApp\ Image\ 2022-04-05\ at\ 11.52.04.jpeg);
+        background-position: center;
+        background-size: cover;
+        
+    }
+    .img4{
+        grid-column: 5/6;
+        grid-row:1/2,5 ;
+        background-image: url(img.html/WhatsApp\ Image\ 2022-04-05\ at\ 11.52.06.jpeg);
+        background-position: center;
+        background-size: cover;
+        
+    }
+    .img7{
+        grid-column: 4/6;
+        grid-row: 4/5,5;
+        background-image: url(img.html/WhatsApp\ Image\ 2022-04-05\ at\ 11.54.28.jpeg);
+        background-position: center;
+        background-size: cover;
+        
+    }
+    
+    .img5{
+         grid-column: 1/2;
+         grid-row: 4/5,5;
+         background-image: url(img.html/WhatsApp\ Image\ 2022-04-05\ at\ 11.59.01.jpeg);
+        background-position: center;
+        background-size: cover;
+       
+    }
+    .img6{
+        grid-column: 2/3;
+        grid-row: 4/5,5;
+        background-image: url(img.html/WhatsApp\ Image\ 2022-04-05\ at\ 11.59.02.jpeg);
+        background-position: center;
+        background-size: cover;
+       
+    }
+
+    .clientes p{
+        font-size: 40px;
+        color: orangered;
+        font-family: 'Times New Roman', Times, serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: row;
+    }
+    
+
+    
